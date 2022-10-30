@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Toko Elektronik_079</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .viewgrasu{
+                position: fixed;
+                margin-top:-230px;
+                margin-left: -200px;
+                top:50%;
+                left:50%;
+                width:420px;
+                height: 300px;
+                background-color:gainsboro;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div align="center" class="viewgrasu"><br>
+          
+            <h1><b>Toko Elektronik</b></h1>
+       
+            <p><b> Nama  : <b th:text="${barang}"><br><br>
+            <p> Harga : Rp. <b  th:text="${harga}"><br><br>
+            <p> Jumlah  : <b th:text="${Jumlah}"><br><br>
+            <p> Diskon : <b th:text="${diskon}"><br><br>
+            <p> Total : Rp. <b th:text="${totalharga}"><br>
+       
+        
+   
+            
+    </body>
+</html>
